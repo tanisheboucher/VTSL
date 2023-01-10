@@ -469,3 +469,45 @@ h3{
     opacity: 1;
     bottom: 25px;
 }
+/*-------- START Service ----------*/
+.service{
+    margin: 100PX auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.service-title h1{
+    color:#fff;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.service-content p{
+    color: #fff;
+}
+@media(max-width: 700px){
+    .service-title h1{
+        font-size: 24px;
+    }
+}
+.servicetwo {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+.service-col{
+    flex-basis: 31%;
+    background: #6DC1DB;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing:border-box;
+    transition: 0.5s;
+}
+.service:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
